@@ -95,7 +95,7 @@ p {
 
 /* ------------------------------ 
 
-        TABLE
+    TABLE
 
 -------------------------------*/
 
@@ -143,4 +143,44 @@ td.dnf {
 
 td.dns {
     color: blue;
+}
+
+/* ------------------------------ 
+
+    end TABLE
+
+-------------------------------*/
+
+h3 {
+    margin: 4rem 0 2rem 0;
+
+}
+
+.suggested {
+    width: 45rem;
+    height: 22rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    box-shadow: 6px 8px #15151f60;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #15151f;
+    text-decoration: underline;
+    text-shadow: .125rem .125rem #FF004C;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.suggested:hover {
+    font-size: 3.5rem;
+    transition: 0.4s;
+}
+
+.sugg-1 {
+    background-image: url(assets/image_rand.png);
+}
+
+.sugg-2 {
+    background-image: url(assets/podium.jpg);
 }
