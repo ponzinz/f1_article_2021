@@ -8,6 +8,11 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+.align {
+    max-width: 68.75rem;
+    margin: auto;
+}
+
 header {
     width: 100vw;
     height: 9.375rem;
@@ -34,16 +39,18 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+/* --------------------------- */
+
 h2 {
-    font-size: 2.375rem;
-    padding: 1.25rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
 }
 
 #subtitle,
 #data {
     color: gray;
     display: block;
-    padding-left: 1.25rem;
+    /* padding-left: 1.25rem; */
 
 }
 
@@ -54,19 +61,19 @@ h2 {
 /* --------------------------- */
 
 figure img {
-    display: inline-block;
-    width: 75rem;
+    width: 70rem;
+    margin-bottom: 1rem;
 }
 
-figure {
-    width: fit-content;
-    padding: 2.5rem;
-    margin: auto;
+.content-sec {
+    margin-top: 2.5rem;
 }
 
 p {
-    font-size: 1.2rem;
-    padding: 0.5rem 5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+    text-align: justify;
+    text-justify: auto;
 }
 
 .max {
