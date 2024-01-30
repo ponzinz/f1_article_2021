@@ -10,7 +10,7 @@ body {
 
 header {
     width: 100vw;
-    height: 150px;
+    height: 9.375rem;
     position: relative;
     background-image: url(assets/f1\ logo\ bg.png);
     background-repeat: no-repeat;
@@ -20,8 +20,46 @@ header {
 
 h1 {
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 4.375rem;
     position: absolute;
     top: 1rem;
     left: 15rem;
+}
+
+#team-logos {
+    width: 15rem;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 2.375rem;
+    padding: 1.25rem;
+}
+
+#subtitle,
+#data {
+    color: gray;
+    display: block;
+    padding-left: 1.25rem;
+
+}
+
+#data {
+    margin-bottom: 1rem;
+}
+
+/* --------------------------- */
+
+figure img {
+    display: inline-block;
+    width: 75rem;
+}
+
+figure {
+    width: fit-content;
+    padding: 2.5rem;
+    margin: auto;
 }
