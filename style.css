@@ -1,23 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1 {
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    left: 100px;
-
-}
-
 header {
+    width: 100vw;
+    height: 150px;
     position: relative;
+    background-image: url(assets/f1\ logo\ bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #15151f;
 }
 
-header img {
-    width: 65px;
-    margin-left: 15px;
+h1 {
+    color: whitesmoke;
+    font-size: 70px;
     position: absolute;
-    top: 50px;
-    left: 400px;
+    top: 1rem;
+    left: 15rem;
 }
